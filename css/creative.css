@@ -248,12 +248,18 @@ header.masthead {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
 
+#sponsors h3 {
+  margin-top: 15px; }
+
 #sponsors .spons-box {
   /* Do not include sponsor in the name of the CSS because Ublock blocks it */
   position: relative;
   display: block;
   max-width: 650px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 5px 0; }
+  #sponsors .spons-box img {
+    max-height: 250px; }
 
 .call-to-action {
   padding: 50px 0; }
