@@ -261,6 +261,9 @@ header.masthead {
   #sponsors .spons-box img {
     max-height: 250px; }
 
+#sponsors .btn-xl {
+  white-space: normal; }
+
 .call-to-action {
   padding: 50px 0; }
   .call-to-action h2 {
