@@ -5,14 +5,16 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/rover.jpg');
   background-position: center;
   @include background-cover;
   .header-content {
     position: relative;
     width: 100%;
-    padding: 150px 15px 100px;
+    padding: 150px 45px 100px 45px;
     text-align: center;
+    background-color: rgba(27, 30, 33, 0.5);
+
     .header-content-inner {
       h1 {
         font-size: 30px;
@@ -38,7 +40,7 @@ header.masthead {
     .header-content {
       position: absolute;
       top: 50%;
-      padding: 0 50px;
+      padding: 25px 50px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);

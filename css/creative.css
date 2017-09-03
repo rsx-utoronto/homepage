@@ -147,7 +147,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/rover.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -156,8 +156,9 @@ header.masthead {
   header.masthead .header-content {
     position: relative;
     width: 100%;
-    padding: 150px 15px 100px;
-    text-align: center; }
+    padding: 150px 45px 100px 45px;
+    text-align: center;
+    background-color: rgba(27, 30, 33, 0.5); }
     header.masthead .header-content .header-content-inner h1 {
       font-size: 30px;
       font-weight: 700;
@@ -178,7 +179,7 @@ header.masthead {
       header.masthead .header-content {
         position: absolute;
         top: 50%;
-        padding: 0 50px;
+        padding: 25px 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
@@ -246,6 +247,13 @@ header.masthead {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
+
+#sponsors .spons-box {
+  /* Do not include sponsor in the name of the CSS because Ublock blocks it */
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto; }
 
 .call-to-action {
   padding: 50px 0; }
